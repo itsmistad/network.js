@@ -15,7 +15,7 @@ In your .html file, add this to your `<head>` tag
 <!-- Optional Dependencies --->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.1.4/signalr.min.js"></script>
 <!-- notify.js --->
-<script src="https://raw.githubusercontent.com/itsmistad/network.js/master/network.js"></script>
+<script src="https://cdn.mistad.net/network.js"></script>
 ```
 
 ### Usage
