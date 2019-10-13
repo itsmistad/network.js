@@ -2,7 +2,7 @@
 
 This is a simple Ajax and SignalR networking wrapper that simplifies server-client communication in lightweight web applications.
 
-_Note:_ This library requires ASP.NET *Core* SignalR and jQuery
+_Note:_ This library requires ASP.NET *Core* SignalR. Without SignalR, only `network.post` and `network.get` will work.
 
 ### Importing
 
@@ -10,8 +10,11 @@ _Note:_ This library requires ASP.NET *Core* SignalR and jQuery
 
 In your .html file, add this to your `<head>` tag
 ```html
+<!-- Required Dependencies --->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Optional Dependencies --->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.1.4/signalr.min.js"></script>
+<!-- notify.js --->
 <script src="https://raw.githubusercontent.com/itsmistad/network.js/master/network.js"></script>
 ```
 
