@@ -1,0 +1,19 @@
+{
+  "name": "network.js",
+  "version": "1.0.0",
+  "description": "A simple Ajax and SignalR networking wrapper.",
+  "main": "network.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmistad/network.js.git"
+  },
+  "author": "itsmistad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmistad/network.js/issues"
+  },
+  "homepage": "https://github.com/itsmistad/network.js#readme"
+}
