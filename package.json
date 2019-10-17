@@ -1,5 +1,5 @@
 {
-  "name": "network.js",
+  "name": "@itsmistad/network.js",
   "version": "1.0.0",
   "description": "A simple Ajax and SignalR networking wrapper.",
   "main": "network.js",
